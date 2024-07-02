@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pandas as pd
 import matplotlib.pyplot as plt
 
 import base64
@@ -31,7 +30,7 @@ st.set_page_config(
 )
 
 df=pd.read_csv('./dataponselnew.csv')
-df=df.drop('Unnamed: 0', axis=1)
+df=data.drop('Unnamed: 0', axis=1)
 def app():
     st.title('Tentang Dataset Cellphone Addiction')
 
